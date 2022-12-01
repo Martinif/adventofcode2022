@@ -6,11 +6,11 @@ fn prepare_input(s: String) -> Vec<i32> {
         .collect()
 }
 
-fn part1(input : &Vec<i32>) -> i32 {
+fn part1(_input : &Vec<i32>) -> i32 {
     0
 }
 
-fn part2(input : &Vec<i32>) -> i32 {
+fn part2(_input : &Vec<i32>) -> i32 {
     0
 }
 
