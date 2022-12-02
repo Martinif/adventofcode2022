@@ -1,19 +1,19 @@
 use adventofcode2022::load_input;
 
 fn prepare_input(s: String) -> Vec<i32> {
-    let mut elfs : Vec<i32> = s.split("\n\n")
-        .map(|elf| elf.lines().map(|l|l.parse::<i32>().unwrap()).sum())
+    let mut elfs: Vec<i32> = s.split("\n\n")
+        .map(|elf| elf.lines().map(|l| l.parse::<i32>().unwrap()).sum())
         .collect();
 
     elfs.sort_by(|a, b| b.cmp(a));
     elfs
 }
 
-fn part1(input : &Vec<i32>) -> i32 {
+fn part1(input: &Vec<i32>) -> i32 {
     input[0]
 }
 
-fn part2(input : &Vec<i32>) -> i32 {
+fn part2(input: &Vec<i32>) -> i32 {
     input[0..3].iter().sum()
 }
 
