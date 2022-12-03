@@ -1,7 +1,9 @@
 [package]
 name = "adventofcode2022"
 authors = ["Martin Pletl <github@martin.pletl.eu>"]
-version = "0.1.0"
+version = "0.3.0"
 edition = "2021"
 
 [dependencies]
+array_tool = "1.0.0"
+itertools = "0.10.5"
